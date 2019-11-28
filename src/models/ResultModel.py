@@ -71,3 +71,4 @@ class ResultSchema(Schema):
   confirmed = fields.Boolean(required=True)
   created_at = fields.DateTime(dump_only=True)
   modified_at = fields.DateTime(dump_only=True)
+  score_line = fields.Int(required=False)
