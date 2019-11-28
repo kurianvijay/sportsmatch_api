@@ -18,6 +18,7 @@ class ResultModel(db.Model): # ResultModel class inherits from db.Model
   confirmed = db.Column(db.Boolean, default=False, nullable=False)
   created_at = db.Column(db.DateTime)
   modified_at = db.Column(db.DateTime)
+  score_line = db.Column(db.Integer)
 
   # class constructor
   def __init__(self, data): # class constructor used to set the class attributes
