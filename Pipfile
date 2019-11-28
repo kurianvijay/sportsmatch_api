@@ -19,6 +19,7 @@ sqlalchemy-utils = "*"
 codecov = "*"
 pytest-cov = "*"
 pytest = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
