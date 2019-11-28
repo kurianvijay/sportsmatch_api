@@ -8,4 +8,4 @@ app = create_app(env_name)
 if __name__ == '__main__':
   port = os.getenv('PORT')
   # run app
-  app.run(host='https://localhost:5000', port=port)
+  app.run(host='0.0.0.0', port=port)
